@@ -16,7 +16,7 @@ img{
 }
 .container {
     max-width: 1158px;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -91,13 +91,14 @@ img{
     color: #434455;
 }
 
-
+.hero-section{
+    padding: 188px 0px;
+}
 .hero-section, .page-footer{
     background-color: #2e2f42;
     color: #fff;
 }
 .hero-section-container{
-    padding: 188px 0px;
     margin: 0 auto;
 }
 .hero-section h1{
@@ -146,10 +147,12 @@ img{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.advantages-section{
+    padding: 120px 0;
+}
 .advantages-section-list{
     display: flex;
     align-items: center;
-    padding: 120px 0px;
     gap: 24px;
 }
 .advantages-section-item{
@@ -161,19 +164,19 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px
+}
+.team-section{
+    padding: 120px 0;
 }
 .team-section-container{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 120px 0px;
     gap: 72px;
 }
 .team-member-content-container {
     text-align: center;
-}
-.team-section-container .section-list-header{
-    margin-bottom: 8px;
 }
 .team-section-list{
     display: flex;
@@ -196,11 +199,13 @@ img{
     padding: 32px 0;
 }
 
+.portfolio-section{
+    padding: 120px 0 120px 0;
+}
 .portfolio-section-container{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 120px 0px;
     gap: 72px;
 }
 .porfolio-list{
@@ -235,7 +240,7 @@ img{
     color: #2e2f42;
     margin-bottom: 72px;
 }
-.page-footer-container{
+.page-footer{
     padding: 100px 0;
 }
 .logo-footer{
