@@ -101,12 +101,13 @@ section {
 .logo-nav .logo-part {
     color: #2e2f42;
 }
-
+.nav-bar-link{
+    padding: 24px 0;
+}
 .nav-bar,
 .nav-address-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 .logo-nav{
     padding: 24px 0;
