@@ -276,6 +276,8 @@ section {
     flex-direction: column;
     padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
 }
 
 /* ================== */
